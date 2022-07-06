@@ -15,6 +15,8 @@ from data import CustomDataset, read_data, read_json
 from utils import get_rouge
 from reward.compute_question_focus_reward import get_question_focus_reward
 from reward.compute_question_type_reward import get_question_type_reward
+from pytorch_pretrained_bert import WEIGHTS_NAME, CONFIG_NAME
+
 
 from transformers.optimization import (
     Adafactor,
@@ -370,6 +372,14 @@ def main():
                     model_file_name = os.path.join(args.model_dir, args.model_filename)
                     model_file_name = model_file_name + '-epoch-' + str(epoch)
                     print(f"Saved the best MLE model as epoch {model_file_name}.")
+                    output_dir = "/content/modelsmle/"
+                    model_to_save = model.module if hasattr(model, 'module') else model
+                    output_model_file = os.path.join(output_dir, WEIGHTS_NAME)
+                    output_config_file = os.path.join(output_dir, CONFIG_NAME)
+
+                    torch.save(model_to_save.state_dict(), output_model_file)
+                    model_to_save.config.to_json_file(output_config_file)
+                    tokenizer.save_vocabulary(output_dir)
 
         if args.train_mode == 'rl':
             print('Initiating Fine-Tuning for the model on our dataset')
@@ -410,6 +420,14 @@ def main():
                     model_file_name = os.path.join(args.model_dir, args.model_filename)
                     model_file_name = model_file_name + '-epoch-' + str(epoch)
                     print(f"Saved the best MLE + RL model as epoch {model_file_name}.")
+                    output_dir = "/content/modelsrl/"
+                    model_to_save = model.module if hasattr(model, 'module') else model
+                    output_model_file = os.path.join(output_dir, WEIGHTS_NAME)
+                    output_config_file = os.path.join(output_dir, CONFIG_NAME)
+
+                    torch.save(model_to_save.state_dict(), output_model_file)
+                    model_to_save.config.to_json_file(output_config_file)
+                    tokenizer.save_vocabulary(output_dir)
 
     if args.mode == 'test':
         SOURCE_TEST = os.path.join(args.dataset_dir, 'test.source')
