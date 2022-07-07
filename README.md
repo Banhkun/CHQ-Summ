@@ -14,7 +14,7 @@
 | 1      | 20521597      | Đinh Nhật Minh         |https://github.com/Banhkun	                        |20521597@gm.uit.edu.vn   |
 | 2      | 20520731      | Trần Thị Mỹ Quyên |https://github.com/AzaleaBrowns |20520731@gm.uit.edu.vn   |
 | 3      | 20521424      | Văn Nguyễn Ngọc Huyền |https://github.com/ngochuynnuit |20521424@gm.uit.edu.vn   |
-|       | 20521444      | Dương Thành Bảo Khanh          |                      https://github.com/cptdtbk                      |20521444@gm.uit.edu.vn   |
+|    44  | 20521444      | Dương Thành Bảo Khanh          |                      https://github.com/cptdtbk                      |20521444@gm.uit.edu.vn   |
 
 
 
@@ -25,20 +25,20 @@
 -   **Mã môn học:** CS116
 -   **Mã lớp:** CS116.M21
 -   **Năm học:** HK2 (2021 - 2022)
--   **Giảng viên**: TS.Lương Ngọc 
+-   **Giảng viên**: TS.Lương Ngọc Hoàng 
 
 ## ĐỒ ÁN CUỐI KÌ
 
--   **Tên đề tài**: ABSTRACTIVE QUESTION
+**Tên đề tài**: ABSTRACTIVE QUESTION
 SUMMARIZATION WITH
 QUESTION-AWARE SEMANTIC REWARDS
 
--   **Giới thiệu**
-   -Tóm tắt văn bản (Summarization) là tác vụ cô đọng một đoạn văn bản thành phiên bản gắn gọn hơn nhưng vẫn bảo toàn các thông tin cần thiết và nội dung chính. Vì tóm tắt văn bản thủ công rất tốn kém thời gian và công sức, việc tự động hóa tác vụ này đang ngày càng phát triển và tạo động lực mạnh mẽ cho các nghiên cứu học thuật.
-    -  “Tóm tắt trừu tượng” (Abstractive summarization) là nhóm phương pháp ứng dụng kỹ thuật Xử lý ngôn ngữ tự nhiên (NLP) tạo ra các văn bản tóm tắt tối ưu, có thể chứa các từ không được trình bày tài liệu gốc. Có thể thấy, văn bản tóm tắt sẽ tập trung truyền tải các thông tin quan trọng nhất, tức yêu cầu khả năng diễn đạt lại văn bản và kết hợp thông tin, như cách con người tóm tắt văn bản. Do đó, một văn bản trừu tượng đạt chuẩn cần chứa đủ thông tin cốt lõi, đồng thời đạt được sự trôi chảy, tự nhiên về mặt ngôn ngữ.
-- Trong đồ án , chúng tôi lựa chọn bài toán Tóm tắt câu hỏi trừu tượng (Abstractive Question Summarization) trong lĩnh vực sức khoẻ, y tế, cụ thể là câu hỏi y tế từ người dùng (Consumer Health Questions - CHQ), nhằm đơn giản hoá các câu hỏi truy vấn dài dòng và nhiều thông tin dư thừa, hỗ trợ phản hồi người dùng đáp án nhanh chóng và hiệu quả.
+**Giới thiệu:**
+  * Tóm tắt văn bản (Summarization) là tác vụ cô đọng một đoạn văn bản thành phiên bản gắn gọn hơn nhưng vẫn bảo toàn các thông tin cần thiết và nội dung chính. Vì tóm tắt văn bản thủ công rất tốn kém thời gian và công sức, việc tự động hóa tác vụ này đang ngày càng phát triển và tạo động lực mạnh mẽ cho các nghiên cứu học thuật.
+  * “Tóm tắt trừu tượng” (Abstractive summarization) là nhóm phương pháp ứng dụng kỹ thuật Xử lý ngôn ngữ tự nhiên (NLP) tạo ra các văn bản tóm tắt tối ưu, có thể chứa các từ không được trình bày tài liệu gốc. Có thể thấy, văn bản tóm tắt sẽ tập trung truyền tải các thông tin quan trọng nhất, tức yêu cầu khả năng diễn đạt lại văn bản và kết hợp thông tin, như cách con người tóm tắt văn bản. Do đó, một văn bản trừu tượng đạt chuẩn cần chứa đủ thông tin cốt lõi, đồng thời đạt được sự trôi chảy, tự nhiên về mặt ngôn ngữ.
+  * Trong đồ án , chúng tôi lựa chọn bài toán Tóm tắt câu hỏi trừu tượng (Abstractive Question Summarization) trong lĩnh vực sức khoẻ, y tế, cụ thể là câu hỏi y tế từ người dùng (Consumer Health Questions - CHQ), nhằm đơn giản hoá các câu hỏi truy vấn dài dòng và nhiều thông tin dư thừa, hỗ trợ phản hồi người dùng đáp án nhanh chóng và hiệu quả.
 
--   # Implementation instructioninstruction
+# Implementation instructioninstruction
 
 
 
