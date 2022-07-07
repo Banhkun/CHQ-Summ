@@ -38,8 +38,7 @@ QUESTION-AWARE SEMANTIC REWARDS
     -  “Tóm tắt trừu tượng” (Abstractive summarization) là nhóm phương pháp ứng dụng kỹ thuật Xử lý ngôn ngữ tự nhiên (NLP) tạo ra các văn bản tóm tắt tối ưu, có thể chứa các từ không được trình bày tài liệu gốc. Có thể thấy, văn bản tóm tắt sẽ tập trung truyền tải các thông tin quan trọng nhất, tức yêu cầu khả năng diễn đạt lại văn bản và kết hợp thông tin, như cách con người tóm tắt văn bản. Do đó, một văn bản trừu tượng đạt chuẩn cần chứa đủ thông tin cốt lõi, đồng thời đạt được sự trôi chảy, tự nhiên về mặt ngôn ngữ.
 - Trong đồ án , chúng tôi lựa chọn bài toán Tóm tắt câu hỏi trừu tượng (Abstractive Question Summarization) trong lĩnh vực sức khoẻ, y tế, cụ thể là câu hỏi y tế từ người dùng (Consumer Health Questions - CHQ), nhằm đơn giản hoá các câu hỏi truy vấn dài dòng và nhiều thông tin dư thừa, hỗ trợ phản hồi người dùng đáp án nhanh chóng và hiệu quả.
 
--   **Hướng dẫn cài đặt**
--   # Reinforcement Learning for Abstractive Question Summarization with Question-aware Semantic Rewards
+-   # Implementation instructioninstruction
 
 
 
@@ -93,13 +92,3 @@ If you are using this code for your reseach work then please cite our paper:
     pages = "249--255"
     }
 ```
-
-    ```bash
-      git clone https://github.com/Banhkun/CS106---Question-Summarizing
-      cd Inpainting-with-seam-carving
-    ```
-    To emulate our project, following our instruction in jupyter notebook:
-    <h3 align="left">
-        <a href="https://karhdo.github.io/CS231.M21/">DEMO</a>
-    </h3>
-    <img align="center" src="./demo.gif">
