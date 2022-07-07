@@ -22,8 +22,8 @@
 ## GIỚI THIỆU MÔN HỌC
 
 -   **Tên môn học:** Trí tuệ nhân tạo 
--   **Mã môn học:** CS116
--   **Mã lớp:** CS116.M21
+-   **Mã môn học:** CS106
+-   **Mã lớp:** CS16.M21
 -   **Năm học:** HK2 (2021 - 2022)
 -   **Giảng viên**: TS.Lương Ngọc Hoàng 
 
