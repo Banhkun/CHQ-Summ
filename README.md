@@ -14,7 +14,7 @@
 | 1      | 20521597      | Đinh Nhật Minh         |https://github.com/Banhkun	                        |20521597@gm.uit.edu.vn   |
 | 2      | 20520731      | Trần Thị Mỹ Quyên |https://github.com/AzaleaBrowns |20520731@gm.uit.edu.vn   |
 | 3      | 20521424      | Văn Nguyễn Ngọc Huyền |https://github.com/ngochuynnuit |20521424@gm.uit.edu.vn   |
-|    44  | 20521444      | Dương Thành Bảo Khanh          |                      https://github.com/cptdtbk                      |20521444@gm.uit.edu.vn   |
+| 4      | 20521444      | Dương Thành Bảo Khanh          |                      https://github.com/cptdtbk                      |20521444@gm.uit.edu.vn   |
 
 
 
